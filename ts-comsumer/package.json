@@ -1,0 +1,19 @@
+{
+  "name": "ts-comsumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "esno index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mylib": "^1.0.0"
+  },
+  "devDependencies": {
+    "esno": "^0.12.1",
+    "typescript": "^4.5.2"
+  }
+}

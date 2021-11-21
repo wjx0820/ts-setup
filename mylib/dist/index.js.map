@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["export const introduceMyself = (first: string, last: string) =>\n  `Hello ${first} ${last}`\n\nexport const borgName = (): string => {\n  const members = Math.round(5 + Math.random() * 5) + 1\n  const member = Math.floor(Math.random() * members) + 1\n\n  return `Your Borg name is ${member} of ${members}!!!`\n}\n"],
+  "mappings": ";;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAO,IAAM,kBAAkB,CAAC,OAAe,SAC7C,SAAS,SAAS;AAEb,IAAM,WAAW,MAAc;AACpC,QAAM,UAAU,KAAK,MAAM,IAAI,KAAK,WAAW,KAAK;AACpD,QAAM,SAAS,KAAK,MAAM,KAAK,WAAW,WAAW;AAErD,SAAO,qBAAqB,aAAa;AAAA;",
+  "names": []
+}

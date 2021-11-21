@@ -1,0 +1,9 @@
+lockfileVersion: 5.3
+
+specifiers:
+  mylib: ^1.0.0
+  tsup-demo: ^1.0.0
+
+dependencies:
+  mylib: link:../mylib
+  tsup-demo: link:../tsup-demo
