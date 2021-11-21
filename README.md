@@ -26,3 +26,12 @@ cd js-consumer
 pnpm link ../mylib
 node index.js
 ```
+
+ts
+
+```bash
+cd ts-comsumer
+
+pnpm link ../mylib
+esno index.ts
+```
